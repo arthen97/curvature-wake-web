@@ -1,4 +1,4 @@
-PASS All nine GLB models load including seven new Meshy assets
+PASS All eleven GLB models load including modeled darts and supply capsules
 PASS Embedded Chinese font loads
 PASS Player movement bounds remain above bottom HUD
 PASS Horizontal movement bounds stay inside camera
@@ -56,4 +56,25 @@ PASS Runtime PBR textures have mipmaps to prevent distant shimmer
 PASS Chapter distant environment orbit-backdrop loads
 PASS Chapter distant environment suns-backdrop loads
 PASS Chapter distant environment forest-backdrop loads
+PASS Thirteen Mandarin narration clips loaded into one speech channel
+PASS Journal records only successful activation, including keyboard-path actions
+PASS Chosen upgrade is timestamped in the actual simulation journal
+PASS Pressure wave brings an elite with two flanking escorts
+PASS Fire-control attack warns before launching live projectiles
+PASS Decoy redirects tracking fire before the lock freezes
+PASS Charged lock resolves into a three-dart burst
+PASS Guzheng warning uses open rails without an opaque stretched ring
+PASS Gravity dynamics remain consistent between 30 and 60 Hz
+PASS Softened gravity bends and damps momentum without singular acceleration
+PASS Enemy projectiles have imported Meshy geometry
+PASS Leaving combat clears targeting telegraphs and queued speech
+PASS Actual player hit updates hull, damage sequence and feedback envelope
+PASS Player floating damage exposes actual one-unit armor loss
+PASS Low armor exposes critical state after protection expires
+PASS Rapid hits aggregate actual damage without duplicate floating labels
+PASS Enemy health indicator tracks real remaining armor
+PASS Supply capsules expose identifiable projected labels
+PASS Supply has a real bounded local light source
+PASS Damage readouts expire within their bounded lifetime
+PASS Combat cleanup clears floating damage state
 SUCCESS

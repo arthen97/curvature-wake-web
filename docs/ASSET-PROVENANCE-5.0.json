@@ -1,0 +1,181 @@
+{
+  "version": "5.0.0",
+  "atlas_generator": "OpenAI imagegen",
+  "audio_stems": "Merouter eleven-music-v1 original electroacoustic studies",
+  "audio_processing": "Sample editing, multiband filtering, transient/body/tail envelopes, stereo reflections, peak normalization. See private production-v5/scripts/design_audio.py.",
+  "models": "Retained validated 4.0 Meshy spacecraft/environments; added v5 dart and capsule via original generated concept → Meshy 7.1 → Blender 4.5.5 → Unity",
+  "assets": [
+    {
+      "asset": "spacetime-atlas.png",
+      "sha256": "187f44a59fd0a5db0a2a9802fb0a552af549241fafa4951b9d6c6dc14d140968",
+      "bytes": 2318202
+    },
+    {
+      "asset": "alert.wav",
+      "sha256": "9324c855aecc175316e62c5cfb25877af408e0d45c836a979f35b58fad9bf768",
+      "bytes": 97064
+    },
+    {
+      "asset": "beam.wav",
+      "sha256": "c97bebfb8a49f64ca5d8cb7601af54903f86a77a823a1d8f4768b9000333b505",
+      "bytes": 449860
+    },
+    {
+      "asset": "boom.wav",
+      "sha256": "3f21d477ca928767ff34c710d30ff484fee24ad8fea915b8ed95586e3e0dae8c",
+      "bytes": 255824
+    },
+    {
+      "asset": "broadcast.wav",
+      "sha256": "b5b50d5213e899e7fe544b4c395aa089cd38530e7c032a6d92701827e9ddf976",
+      "bytes": 511604
+    },
+    {
+      "asset": "dash.wav",
+      "sha256": "31df58c29cc5f0d13bc01cca758cc2b0de9018445e8e0ef5d24e7eb2d51d4493",
+      "bytes": 127052
+    },
+    {
+      "asset": "decoy.wav",
+      "sha256": "518e030237c06c1fbab72948908d0b69920a72b76c923bf04903b2e0463744d7",
+      "bytes": 141164
+    },
+    {
+      "asset": "foil.wav",
+      "sha256": "824a309fc4ccfa88535c259e59d546204fb10e579a16d7e343ebcfaaaeed3f15",
+      "bytes": 238184
+    },
+    {
+      "asset": "gravity.wav",
+      "sha256": "5a946953038187eb3da3514f79364062d3bb83f2ff9b8f45604be02d72603146",
+      "bytes": 458684
+    },
+    {
+      "asset": "hurt.wav",
+      "sha256": "63c47bd45ade32e839f4cded23e5e4ec11f7321de3b2b2f613cc63dfe90e4138",
+      "bytes": 114704
+    },
+    {
+      "asset": "impact.wav",
+      "sha256": "fac6db824ad09c6088b6cdcb6f935e570a690a86db93dc64486b20d6c7252549",
+      "bytes": 74132
+    },
+    {
+      "asset": "impact2.wav",
+      "sha256": "d793325912512fb3b0a6bcd0efbeea30b255e9a5e6c5d5430384e79969aaa8b4",
+      "bytes": 74132
+    },
+    {
+      "asset": "impact3.wav",
+      "sha256": "02deb5837a287292de87ec3386c9bff519835375c5c17d7ddbfa16acea822356",
+      "bytes": 74132
+    },
+    {
+      "asset": "shield.wav",
+      "sha256": "5250a75f78d8b27cbc0631514506d3b19f5cd26af52c57075dc607521ef86e06",
+      "bytes": 194084
+    },
+    {
+      "asset": "shot.wav",
+      "sha256": "8a545dd7eb1b5a5da770ae86b8b764f62e557335625eea210c33063f9473414f",
+      "bytes": 38852
+    },
+    {
+      "asset": "shot2.wav",
+      "sha256": "ee0ab4afb1487ef1ce51270113b215c42433adec17c5ad3cea5c910a1b60abf9",
+      "bytes": 38852
+    },
+    {
+      "asset": "shot3.wav",
+      "sha256": "8775a9cd1eaf996a5c6701efd9e417bf064f6a2778ff9dc4ae6fad654099da0a",
+      "bytes": 38852
+    },
+    {
+      "asset": "sophon.wav",
+      "sha256": "38e241338f10ad0e61d539155ead721a6dbb6c58b7bba58197ca5b3a7fed492c",
+      "bytes": 264644
+    },
+    {
+      "asset": "Models/v5-capsule.glb",
+      "sha256": "a4e5beb4ba2000e519f001a728227336298e1b831fea744133ead6add2b91114",
+      "bytes": 667584
+    },
+    {
+      "asset": "Models/v5-dart.glb",
+      "sha256": "cba670276928435393fa632d599b848ac710e1582c243d998b93689631407875",
+      "bytes": 618444
+    },
+    {
+      "asset": "Voice/win.wav",
+      "sha256": "15240086d0bfab83165960fae97fadb1762cab1e8e1fa15abf310afdef06620b",
+      "bytes": 406334
+    },
+    {
+      "asset": "Voice/intro.wav",
+      "sha256": "2ee65a996be8ec86104292c9a43b070b2e083ffb58da3643d468193a0a038aeb",
+      "bytes": 513332
+    },
+    {
+      "asset": "Voice/elite.wav",
+      "sha256": "2aa88ed4cf68d03eb17ab0b65e973c8fe7fe98a2d6f626678e10e5cb272136d6",
+      "bytes": 347820
+    },
+    {
+      "asset": "Voice/dash.wav",
+      "sha256": "7673f99f58d08cb30b093848e95d74a8c7b2db878fe38b929aa151abe0418aea",
+      "bytes": 306024
+    },
+    {
+      "asset": "Voice/foil.wav",
+      "sha256": "0bbc19ed82360faacf4fb3cf9cc3051cfa0018ec9e022ad13a0a3b08f5d34e10",
+      "bytes": 376242
+    },
+    {
+      "asset": "Voice/decoy.wav",
+      "sha256": "4f286bb138607f519ee52ec73ba1920bfac6195177a492c58a70334851e1145d",
+      "bytes": 175622
+    },
+    {
+      "asset": "Voice/beam.wav",
+      "sha256": "4875641ce4f4873d65130a54b55169232b070a83f46339c60374c1ba7b3e601b",
+      "bytes": 190668
+    },
+    {
+      "asset": "Voice/gravity.wav",
+      "sha256": "fe808d86f34dbb2bfa953315ffb3efc0c13a2202d3f1dae4c5bdf6311d8b62e5",
+      "bytes": 311040
+    },
+    {
+      "asset": "Voice/shield.wav",
+      "sha256": "6e633f4a9239918318ceb9f5d60f23cd3523981596bc4e35c770d6da691dc81f",
+      "bytes": 257542
+    },
+    {
+      "asset": "Voice/danger.wav",
+      "sha256": "c1f188619f458c83a86ec475ee834f5a42c4b3288a680abae6048ad15bfd035c",
+      "bytes": 285962
+    },
+    {
+      "asset": "Voice/draft.wav",
+      "sha256": "855d7be2f49e4cf7b58d0798667d818fb80006f7cf9548885dcab09453aafcc1",
+      "bytes": 326086
+    },
+    {
+      "asset": "Voice/broadcast.wav",
+      "sha256": "d8cc335ea11915db99f366ce536ed908d1bdfc273042b7f6c66d4190037503ba",
+      "bytes": 352836
+    },
+    {
+      "asset": "Voice/sophon.wav",
+      "sha256": "be898796208e1f72d01e4ab888e35c2bcaa31a9e9ba9770007d7196df7a236d6",
+      "bytes": 285962
+    }
+  ],
+  "narration": {
+    "provider": "Merouter Gemini 3.8 Flash TTS",
+    "voice": "Charon",
+    "type": "original fictional Mandarin male, no real-person imitation",
+    "clips": 13,
+    "processing": "32kHz mono, highpass/lowpass and intelligibility EQ, -18 LUFS target, dedicated speech channel with ducking"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "provider": "React Bits / David Haz",
+  "retrieved": "2026-10-18",
+  "source": "https://github.com/DavidHDev/react-bits",
+  "license": "public/REACT-BITS-LICENSE.txt",
+  "components": [
+    {
+      "file": "src/components/AnimatedContent.jsx",
+      "sha256": "f18acb24614948733f8351479f03a06d3052ddacfb291e4cbaccead58499bab2"
+    },
+    {
+      "file": "src/components/SpotlightCard.jsx",
+      "sha256": "e0b91ba07c173c98b87b44ec451d0243fe0a3edc67864e2779ad8507d455af67"
+    },
+    {
+      "file": "src/components/SpotlightCard.css",
+      "sha256": "b646b7da4bb46f0a4d819d0af275804c49a845a5c2dc848700aaf9282db13a92"
+    },
+    {
+      "file": "src/components/StarBorder.jsx",
+      "sha256": "8a82730322a9db4e1f0ceddf312a0b4bdf8a27d10b84ed4f49e93d1977d004c6"
+    },
+    {
+      "file": "src/components/StarBorder.css",
+      "sha256": "128fe0068b2d7964c28488d24465626ff34f3143a66082a6548a1a1f57c987d2"
+    }
+  ],
+  "uses": {
+    "AnimatedContent": [
+      "chapter entry",
+      "upgrade-card stagger",
+      "debrief",
+      "flight archive"
+    ],
+    "SpotlightCard": [
+      "upgrade cards"
+    ],
+    "StarBorder": [
+      "launch action",
+      "broadcast ready state"
+    ]
+  },
+  "existing_components": [
+    "ClickSpark",
+    "DecryptedText",
+    "CountUp"
+  ],
+  "accessibility": "Reduced motion; readable body text never decrypted; hover and keyboard focus; archive focus loop"
+}
