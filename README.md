@@ -11,3 +11,9 @@ React Bits source: https://github.com/DavidHDev/react-bits. See `public/REACT-BI
 Original hero and textures generated through Merouter using gpt-image-2. Original 140-second score generated through Merouter using eleven-music-v1. No credentials or generation endpoints are used at runtime.
 
 Full editable Unity source is maintained separately in the owner's arthen97/curvature-wake repository.
+
+## 3.0 — Wallfacer simulation
+
+Play: https://nug4cwx5qr7x.app.stg.medeo.ai/
+
+Luo Ji first-person narrative in the same vertical shooter format. Eight abilities (J/K/L, Q/E/R/F, Space), twelve stackable draft upgrades (1/2/3), rotating encounters and four new enemy silhouettes. Runs retain the minimum 120-second rule. The fictional portrait is original Merouter-generated art. This is a fan simulation, not a recreation of the novel’s events.
