@@ -1,19 +1,25 @@
-# Curvature Wake — web release
+# 曲率航迹 / Curvature Wake 4.0
 
-Public deployment source for 曲率航迹, an original Unity orbital shooter with a React HUD.
-
-`npm ci && npm run build` creates `dist/`. Menv deployment: static site, root directory blank, output directory `dist`.
-
-WASD / arrows or mouse drag to move, automatic shooting, J sophon field, K foil, L dash, Escape pause. Stable orbit lasts 132 seconds, chaotic suns 144 seconds; the droplet arrives after 120 seconds. Emergency reconstruction protects the first 120 seconds, with a 20% score penalty and a weapon downgrade.
-
-React Bits source: https://github.com/DavidHDev/react-bits. See `public/REACT-BITS-LICENSE.txt`. Noto Sans SC font subset: `public/FONT-LICENSE.txt`.
-
-Original hero and textures generated through Merouter using gpt-image-2. Original 140-second score generated through Merouter using eleven-music-v1. No credentials or generation endpoints are used at runtime.
-
-Full editable Unity source is maintained separately in the owner's arthen97/curvature-wake repository.
-
-## 3.0 — Wallfacer simulation
+Public Git deployment source for the Unity WebGL game and React HUD.
 
 Play: https://nug4cwx5qr7x.app.stg.medeo.ai/
 
-Luo Ji first-person narrative in the same vertical shooter format. Eight abilities (J/K/L, Q/E/R/F, Space), twelve stackable draft upgrades (1/2/3), rotating encounters and four new enemy silhouettes. Runs retain the minimum 120-second rule. The fictional portrait is original Merouter-generated art. This is a fan simulation, not a recreation of the novel’s events.
+`npm ci && npm run build` creates `dist/`. Menv imports this public repository on `main`, using static hosting, an empty root directory and output directory `dist`.
+
+## 4.0 visual and sound rebuild
+
+Seven original image concepts → Meshy 7.1 → editable Blender validation → Unity. New detailed player, interceptor, carrier and sniper models, plus chapter-specific orbital facilities, silicon monoliths and listening gates. Three original distant environments, retained PBR textures, mipmaps, bloom, particle impacts and layered skill energy. Compact HUD returns most of the viewport to combat. New opening and combat scores use metallic FM rhythms, seamless loop crossfades and bounded sound-effect mixing.
+
+See [release notes](docs/RELEASE-4.0.md), [asset provenance](docs/ASSET-PROVENANCE.json) and [58 Unity validation checks](docs/unity-validation.txt). Full editable Unity and Blender sources are maintained separately in the owner's private `arthen97/curvature-wake` repository.
+
+## Controls
+
+WASD / arrows or mouse drag: move. Automatic shooting. J/K/L: sophon, foil, dash. Q/E/R/F: shield, decoy, gravity, lance. Space: Dark Forest broadcast. 1/2/3: choose a draft upgrade. Escape: pause. Eight active abilities and twelve stackable upgrades preserve Luo Ji's first-person Wallfacer route.
+
+Stable orbit lasts 132 seconds, chaotic suns 144 seconds; the droplet arrives after 120 seconds. Emergency reconstruction protects the first 120 seconds with a 20% score penalty and weapon downgrade.
+
+## Attribution
+
+Original images and music generated through Merouter (`gpt-image-2`, `eleven-music-v1`); 3D assets generated through Meshy. No generation API or credentials are used at runtime. Art direction is Marathon-inspired; no Bungie assets or logos are used. Unofficial Three-Body fan simulation.
+
+React Bits: https://github.com/DavidHDev/react-bits — DecryptedText, CountUp, ClickSpark. See `public/REACT-BITS-LICENSE.txt`. Noto Sans SC: `public/FONT-LICENSE.txt`.

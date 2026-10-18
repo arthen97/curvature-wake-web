@@ -1,0 +1,59 @@
+PASS All nine GLB models load including seven new Meshy assets
+PASS Embedded Chinese font loads
+PASS Player movement bounds remain above bottom HUD
+PASS Horizontal movement bounds stay inside camera
+PASS Difficulty 0 loadout
+PASS Difficulty 1 loadout
+PASS Difficulty 2 loadout
+PASS J consumes one stock and activates four seconds
+PASS J cannot underflow stock
+PASS L uses movement direction and grants invulnerability
+PASS Active dash cannot consume another stock
+PASS K consumes stock and clears enemy bullets
+PASS Restart removes probe, sophon and foil effects
+PASS Restart clears screen flashes
+PASS Chapter 1 starts
+PASS Chapter 2 starts
+PASS Chapter 3 starts
+PASS Chapter 1 cannot finish before two minutes
+PASS Chapter 2 cannot finish before two minutes
+PASS Chapter 3 cannot finish before two minutes
+PASS Emergency recovery keeps a round alive for at least 120 seconds
+PASS Recovery closes after 120 seconds
+PASS Web pause command
+PASS Web resume command
+PASS HUD exposes correct duration
+PASS Third chapter spawns droplet boss
+PASS First chapter completes when waves are clear
+PASS Continue enters second chapter
+PASS Q consumes resolve and activates shield
+PASS Cooldown blocks duplicate skill consumption
+PASS E creates a six-second decoy
+PASS R activates gravity well
+PASS Insufficient resolve blocks beam
+PASS F activates piercing lance
+PASS Broadcast spends 100 resolve and clears bullets
+PASS Draft offers three upgrades
+PASS Upgrade choices are distinct
+PASS Invalid draft choice is rejected
+PASS A chosen upgrade changes the real run build
+PASS Repeated selection cannot grant a second upgrade
+PASS Restart clears build and resets resolve
+PASS Encounter exposes objective and guidance
+PASS Three separate chapter scene roots installed
+PASS Chapter 0 has its own Meshy landmark layout
+PASS Chapter 1 has its own Meshy landmark layout
+PASS Chapter 2 has its own Meshy landmark layout
+PASS New opening and combat music clips loaded
+PASS Audio effect voice pool is bounded to ten
+PASS Repeated explosions do not allocate or truncate extra voices
+PASS New visual resource group shipVisual exists
+PASS New visual resource group enemyVisuals exists
+PASS New visual resource group sceneVisuals exists
+PASS Meshy PBR material is retained instead of overwritten
+PASS Bloom compositor is supported by target graphics device
+PASS Runtime PBR textures have mipmaps to prevent distant shimmer
+PASS Chapter distant environment orbit-backdrop loads
+PASS Chapter distant environment suns-backdrop loads
+PASS Chapter distant environment forest-backdrop loads
+SUCCESS
