@@ -10,7 +10,7 @@ Play: https://nug4cwx5qr7x.app.stg.medeo.ai/
 
 Eight distinct multi-layer skill effects, an original emission atlas, screen-space gravity lensing, segmented energy shields, helical ionized beams, folded dimensional planes and local energy lighting. Near/middle/far environment layers have different parallax speeds and depth haze. Upgrade cards now maintain readable contrast while hovered or focused. Seventeen sample-based sound effects give abilities distinct sonic identities, with reserved skill voices and bounded mix headroom.
 
-See [5.0 release notes](docs/RELEASE-5.0.md), [technical-art provenance](docs/ASSET-PROVENANCE-5.0.json) and [79 Unity validation checks](docs/unity-validation.txt). The seven Meshy assets and chapter environments from [4.0](docs/RELEASE-4.0.md) are retained. Full editable Unity and Blender sources are maintained separately in the owner's private `arthen97/curvature-wake` repository.
+See [5.0 release notes](docs/RELEASE-5.0.md), [technical-art provenance](docs/ASSET-PROVENANCE-5.0.json) and [81 Unity validation checks](docs/unity-validation.txt). The seven Meshy assets and chapter environments from [4.0](docs/RELEASE-4.0.md) are retained. Full editable Unity and Blender sources are maintained separately in the owner's private `arthen97/curvature-wake` repository.
 
 ## Controls
 

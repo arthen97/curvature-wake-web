@@ -43,8 +43,8 @@ function App(){
  const menu=['Title','Select'].includes(s.phase),end=['Win','Dead'].includes(s.phase),mission=missions[menu?s.selected:s.stage||0];
  useEffect(()=>{
    const listener=e=>{stateRef.current=e.detail;setS(e.detail)};window.addEventListener('curvature:state',listener);
-   const script=document.createElement('script');script.src='./unity/Build/unity.loader.js?v=5-feedback-20261018';
-   script.onload=()=>window.createUnityInstance(canvas.current,{dataUrl:'./unity/Build/unity.data.unityweb?v=5-feedback-20261018',frameworkUrl:'./unity/Build/unity.framework.js.unityweb?v=5-feedback-20261018',codeUrl:'./unity/Build/unity.wasm.unityweb?v=5-feedback-20261018',streamingAssetsUrl:'./unity/StreamingAssets',companyName:'Curvature',productName:'Curvature Wake',productVersion:'5.0.0',autoSyncPersistentDataPath:true,matchWebGLToCanvasSize:true,devicePixelRatio:Math.min(devicePixelRatio,1.5)},setLoad).then(instance=>{engine.current=instance;}).catch(e=>setError(String(e)));
+   const script=document.createElement('script');script.src='./unity/Build/unity.loader.js?v=5-pbr-20261019';
+   script.onload=()=>window.createUnityInstance(canvas.current,{dataUrl:'./unity/Build/unity.data.unityweb?v=5-pbr-20261019',frameworkUrl:'./unity/Build/unity.framework.js.unityweb?v=5-pbr-20261019',codeUrl:'./unity/Build/unity.wasm.unityweb?v=5-pbr-20261019',streamingAssetsUrl:'./unity/StreamingAssets',companyName:'Curvature',productName:'Curvature Wake',productVersion:'5.0.0',autoSyncPersistentDataPath:true,matchWebGLToCanvasSize:true,devicePixelRatio:Math.min(devicePixelRatio,1.5)},setLoad).then(instance=>{engine.current=instance;}).catch(e=>setError(String(e)));
    script.onerror=()=>setError('引擎下载失败，请检查网络后重试。');document.body.appendChild(script);
    const hidden=()=>{if(document.hidden && ['Play','Enter'].includes(stateRef.current.phase)&&!stateRef.current.paused)engine.current?.SendMessage('Game','WebCommand','pause')};document.addEventListener('visibilitychange',hidden);
    return()=>{window.removeEventListener('curvature:state',listener);document.removeEventListener('visibilitychange',hidden);engine.current?.Quit();script.remove()};

@@ -77,4 +77,6 @@ PASS Supply capsules expose identifiable projected labels
 PASS Supply has a real bounded local light source
 PASS Damage readouts expire within their bounded lifetime
 PASS Combat cleanup clears floating damage state
+PASS Miniature dartVisual retains every imported PBR and emissive material
+PASS Miniature capsuleVisual retains every imported PBR and emissive material
 SUCCESS
